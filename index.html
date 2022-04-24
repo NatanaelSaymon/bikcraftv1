@@ -15,13 +15,13 @@
     </head>
     <body>
         <header class="header header--bg">
-            <div class="header__container">
+            <div class="header__container container">
                 <a href="/" class="header__logo">
                     <img src="./img/bikcraft.svg" alt="bikcraft">
                 </a>
 
                 <nav class="header__nav" arail-label="primaria">
-                    <ul class="header__menu">
+                    <ul class="header__menu font-1-m">
                         <li><a href="./bicicletas.html" class="header__link">Biciletas</a></li>
                         <li><a href="./seguros.html" class="header__link">Seguros</a></li>
                         <li><a href="./contato.html" class="header__link">Contato</a></li>
@@ -33,9 +33,9 @@
         <main class="introducao introducao--bg">
             <div class="introducao__container">
                 <div class="introducao__content">
-                    <h1 class="introducao__title">Bicicletas feitas sob medida<span>.</span></h1>
+                    <h1 class="introducao__title font-1-xxl cor-0">Bicicletas feitas sob medida<span>.</span></h1>
 
-                    <p class="introducao__desc">
+                    <p class="introducao__desc font-2-l cor-5">
                         Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. 
                         Explore o mundo na sua velocidade com a Bikcraft.
                     </p>
@@ -48,5 +48,33 @@
                 </div>
             </div>
         </main>
+
+        <article class="bicicletas">
+            <h2 class="bicicletas__title container font-1-xxl">escolha a sua <span>.</span></h2>
+
+            <ul class="bicicletas__list">
+                <li class="bicicletas__list-item">
+                    <a href=".bicicletas/magic.html" class="bicicletas__link">
+                        <img src="./img/bicicletas/magic-home.jpg" alt="Bicicleta elétrica Magic Might" class="bicicletas__link-img">
+                        <h3 class="bicicletas__link-title font-1-xl">Magic Might</h3>
+                        <span class="bicicletas__link-price font-2-m">R$ 2499</span>
+                    </a>
+                </li>
+                <li class="bicicletas__list-item">
+                    <a href=".bicicletas/magic.html" class="bicicletas__link">
+                        <img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta elétrica Nimbus Stark" class="bicicletas__link-img">
+                        <h3 class="bicicletas__link-title font-1-xl">Nimbus Stark</h3>
+                        <span class="bicicletas__link-price font-2-m">R$ 4999</span>
+                    </a>
+                </li>
+                <li class="bicicletas__list-item">
+                    <a href=".bicicletas/magic.html" class="bicicletas__link">
+                        <img src="./img/bicicletas/nebula-home.jpg" alt="Bicicleta elétrica Nebulosa Cosmic" class="bicicletas__link-img">
+                        <h3 class="bicicletas__link-title font-1-xl">Nebulosa Cosmic</h3>
+                        <span class="bicicletas__link-price font-2-m">R$ 3999</span>
+                    </a>
+                </li>
+            </ul>
+        </article>
     </body>
 </html>
