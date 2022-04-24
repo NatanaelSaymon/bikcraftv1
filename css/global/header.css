@@ -1,5 +1,5 @@
 .header--bg {
-    background-color: #000000;
+    background-color: var(--cor-12);
 }
 
 .header__container {
@@ -8,9 +8,8 @@
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header__menu {
@@ -22,10 +21,7 @@
 .header__link {
     display: inline-block;
     padding: 16px 0;
-    color: #ffffff;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+    color: var(--cor-0);
     position: relative;
 }
 
@@ -34,7 +30,7 @@
     display: block;
     height: 2px;
     width: 0;
-    background: #ffffff;
+    background-color: var(--cor-0);
     transition: .3s;
     position: absolute;
 }
@@ -48,13 +44,13 @@
         gap: 20px;
     }
     .header__link {
-        background-color: #111111;
+        background-color: var(--cor-11);
         padding: 12px 16px;
         border-radius: 4px;
     }
 
     .header__link:hover {
-        background-color: #2E2E2E;
+        background-color: var(--cor-10);
     }
 
     .header__link:after {
